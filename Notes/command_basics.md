@@ -37,3 +37,8 @@ echo $newnode
 4. Copy from hpcc to sci using rsync:
 ```
 bsub $longnode -o rsync-log.txt "rsync -avz $hpc:target_folder dest_folder"
+```
+Or
+```
+bsub -q long -n 1 -W 100:00 -R select[rh=8] -R rusage[mem=40000] -o rsync-log.txt "rsync -avz $hpc:target_folder dest_folder"
+```
