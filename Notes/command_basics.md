@@ -33,3 +33,7 @@ To view the command parameters:
 ```
 echo $newnode
 ```
+
+4. Copy from hpcc to sci using rsync:
+```
+bsub $longnode -o rsync-log.txt "rsync -avz $hpc:target_folder dest_folder"
