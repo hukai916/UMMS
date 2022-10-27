@@ -15,9 +15,8 @@ source ~/.zshrc
 ```
 
 3. Create alias on SCI:
-
+Open `~/.bash_profile` with `nano` or `emacs`. Then add the following commands at the bottom:
 ```
-emacs/nano ~/.bash_profile
 export PS1="[\u@\h \w]\n\$ "
 export newnode="-q interactive -R rusage[mem=10000] -R span[hosts=1] -W 480 -n 1 -Is bash"
 export shortnode="-q short -n 1 -W 4:00 -R rusage[mem=40000]"
