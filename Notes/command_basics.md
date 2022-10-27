@@ -29,7 +29,7 @@ Then, you can request new interactive node with:
 source ~/.bash_profile
 bsub $newnode
 ```
-To view the command:
+To view the command parameters:
 ```
 echo $newnode
 ```
