@@ -15,6 +15,7 @@ source ~/.zshrc
 ```
 
 3. Create alias on SCI:
+
 ```
 emacs/nano ~/.bash_profile
 export PS1="[\u@\h \w]\n\$ "
@@ -27,4 +28,8 @@ Then, you can request new interactive node with:
 ```
 source ~/.bash_profile
 bsub $newnode
+```
+To view the command:
+```
+echo $newnode
 ```
