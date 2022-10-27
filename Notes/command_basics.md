@@ -23,6 +23,8 @@ export shortnode="-q short -n 1 -W 4:00 -R rusage[mem=40000]"
 export longnode="-q long -n 1 -W 40:00 -R rusage[mem=40000]"
 ```
 Then, you can request new interactive node with:
+
 ```
+source ~/.bash_profile
 bsub $newnode
 ```
