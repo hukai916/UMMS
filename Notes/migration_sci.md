@@ -53,7 +53,7 @@ Follow wiki: https://hpc.umassmed.edu/wiki/index.php?title=Scientific_Computing_
 
 To copy data from the GHPCC cluster to the SCI cluster start a terminal running on the SCI cluster. To recursively copy a directory, you can run a command such as:
 ```
-rsync -avz ghpcc08.umassrc.org:/project/umw_john_doe/mydirectory /project/umw_john_doe/
+rsync -avz your_name@ghpcc08.umassrc.org:/project/umw_john_doe/mydirectory /project/umw_john_doe/
 ```
 
 ## References
