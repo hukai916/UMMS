@@ -1,2 +1,2 @@
 # UMMS
-Quick notes for UMMS usage.
+Quick notes for UMMS labs.
