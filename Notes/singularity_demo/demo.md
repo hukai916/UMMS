@@ -114,7 +114,7 @@ Seems that the `C compiler` system dependency is missing.
   - ```
     BiocManager::install("RCurl")
     ```
-  - Viola, `RCurl` can be successfully installed now!
+  - Voila, `RCurl` can be successfully installed now!
   - Finally, you can push this version to the Library Registry:
   - ```
     singularity push -U r_0.2.sif library://hukai916_singularity/r/r:0.2
