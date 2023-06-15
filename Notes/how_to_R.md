@@ -16,5 +16,5 @@ A good open resource: https://bookdown.org/home/archive/
 - `Enrichr`: https://maayanlab.cloud/Enrichr/
   - interactive web API, rich gene sets and plots
 - Venn diagram: https://r-graph-gallery.com/14-venn-diagramm
-1. Use `ChatGPT` for quick coding tips
+3. Use `ChatGPT` for quick coding tips
   - use `VScode` and plugins for quick access.
