@@ -15,5 +15,6 @@ A good open resource: https://bookdown.org/home/archive/
   - to obtain the enriched GO/pathway terms
 - `Enrichr`: https://maayanlab.cloud/Enrichr/
   - interactive web API, rich gene sets and plots
-3. Use `ChatGPT` for quick coding tips
+- Venn diagram: https://r-graph-gallery.com/14-venn-diagramm
+1. Use `ChatGPT` for quick coding tips
   - use `VScode` and plugins for quick access.
